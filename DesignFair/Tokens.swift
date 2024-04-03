@@ -26,6 +26,15 @@ enum TokenColor {
     }
     
     func readJson() {
-        
+        guard let path = Bundle.main.url(forResource: "tokens", withExtension: "json") else {
+            return
+        }
+        do {
+            let data = try Data(contentsOf: path)
+            let result = try JSONDecoder().decode(rootToken.self, from: data)
+            print(result)
+        } catch {
+            print(error)
+        }
     }
 }

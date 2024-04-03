@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    //let token = Tokens()
+//    let token = Tokens()
     
     var body: some View {
         VStack {
             Button(action: {
-                
+                TokenColor.accent.readJson()
             }, label: {
                 Text("Action")
                     .foregroundStyle(.background)

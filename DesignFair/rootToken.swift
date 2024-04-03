@@ -7,7 +7,7 @@
 
 import Foundation
 struct rootToken: Codable {
-    var colors: [colorToken]
+    var Colors: [colorToken]
 }
 
 struct colorToken: Codable {
