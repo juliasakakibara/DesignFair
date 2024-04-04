@@ -8,17 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-//    let token = Tokens()
+    let token = TokenColor()
     
     var body: some View {
         VStack {
-            Button(action: {
-                TokenColor.accent.readJson()
-            }, label: {
+            Button(action: {}, label: {
                 Text("Action")
                     .foregroundStyle(.background)
                     .frame(width: 100, height: 60)
-                    .background(TokenColor.primary.color())
+                    .background(token.primary)
             })
         }
         .padding()

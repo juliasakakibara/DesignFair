@@ -14,6 +14,7 @@
 		149220782BBCA11A00FD9246 /* tokens.json in Resources */ = {isa = PBXBuildFile; fileRef = 149220772BBCA11A00FD9246 /* tokens.json */; };
 		1492207A2BBCA3DE00FD9246 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149220792BBCA3DE00FD9246 /* Tokens.swift */; };
 		1492207C2BBE111D00FD9246 /* rootToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492207B2BBE111D00FD9246 /* rootToken.swift */; };
+		1492207E2BBEF5CC00FD9246 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1492207D2BBEF5CC00FD9246 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		149220772BBCA11A00FD9246 /* tokens.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tokens.json; sourceTree = "<group>"; };
 		149220792BBCA3DE00FD9246 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
 		1492207B2BBE111D00FD9246 /* rootToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootToken.swift; sourceTree = "<group>"; };
+		1492207D2BBEF5CC00FD9246 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		1492205D2BBC9FF100FD9246 = {
 			isa = PBXGroup;
 			children = (
+				1492207D2BBEF5CC00FD9246 /* ColorExtension.swift */,
 				149220682BBC9FF100FD9246 /* DesignFair */,
 				149220672BBC9FF100FD9246 /* Products */,
 			);
@@ -151,6 +154,7 @@
 				1492206A2BBC9FF100FD9246 /* DesignFairApp.swift in Sources */,
 				1492207A2BBCA3DE00FD9246 /* Tokens.swift in Sources */,
 				1492207C2BBE111D00FD9246 /* rootToken.swift in Sources */,
+				1492207E2BBEF5CC00FD9246 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
