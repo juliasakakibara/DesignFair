@@ -13,11 +13,17 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Button(action: {}, label: {
-                Text("Action")
-                    .foregroundStyle(.background)
-                    .frame(width: 100, height: 60)
-                    .background(token.primary)
+                Text("Button")
+                    .font(.largeTitle)
+                    .foregroundStyle(.black)
+                    .bold()
+                    .padding(.horizontal, 60)
+                    .padding(.vertical, 12)
             })
+            .background {
+                RoundedRectangle(cornerRadius: 8)
+                    .foregroundStyle(token.primary)
+            }
         }
         .padding()
     }
